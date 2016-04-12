@@ -1,0 +1,6 @@
+REPO_WORKING_DIR=/usr/src/GIT/docker-images/docker-alpine-filebeat
+DOCKER_USER=ukhomeoffice
+DOCKER_BASE=${DOCKER_USER}/glibc:latest
+FILEBEAT_VERSION=5.0.0-alpha1-x86_64
+FILEBEAT_DOWNLOAD_URL=https://download.elastic.co/beats/filebeat/filebeat-${FILEBEAT_VERSION}.tar.gz
+ELASTIC_URL=http://10.1.0.4:9200
